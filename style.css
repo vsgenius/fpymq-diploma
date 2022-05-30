@@ -1,12 +1,12 @@
 @font-face {
     font-family: OpenSans-regular; 
-    src: url(sources/fonts/OpenSans-Regular.woff); 
+    src: url("sources/fonts/OpenSans-Regular.woff"); 
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
     font-family: OpenSans-bold; 
-    src: url(sources/fonts/OpenSans-Bold.woff); 
+    src: url("sources/fonts/OpenSans-Bold.woff"); 
   font-weight: 400;
   font-style: normal;
 }
@@ -361,6 +361,15 @@ button {
     justify-content: center;
 }
 @media (max-width:1220px) {
+    header {
+        /* position:relative;
+        background-size:auto; */
+        background: 
+            url("sources/img/banner-bg-tablet.jpg") center no-repeat rgba(0,0,0,.7);
+        /* width: 100%;
+        height:445px;
+        justify-content:center; */
+    }
     .head_nav {
        margin-right: 15px;
     }
@@ -369,6 +378,15 @@ button {
      }
 }
 @media (max-width:768px) {
+    header {
+        /* position:relative;
+        background-size:auto; */
+        background: 
+            url("sources/img/banner-mobile.jpg") center no-repeat rgba(0,0,0,.7);
+        /* width: 100%;
+        height:445px;
+        justify-content:center; */
+    }
     .short_menu_item {
         display: flex;
     }
