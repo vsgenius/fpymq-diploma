@@ -1,12 +1,12 @@
 @font-face {
     font-family: OpenSans-regular; 
-    src: url(/sources/fonts/OpenSans-Regular.woff); 
+    src: url(sources/fonts/OpenSans-Regular.woff); 
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
     font-family: OpenSans-bold; 
-    src: url(/sources/fonts/OpenSans-Bold.woff); 
+    src: url(sources/fonts/OpenSans-Bold.woff); 
   font-weight: 400;
   font-style: normal;
 }
@@ -20,7 +20,7 @@ header {
     position:relative;
     background-size:auto;
 	background: 
-		url("/sources/img/banner-bg.jpg") center no-repeat rgba(0,0,0,.7);
+		url("sources/img/banner-bg.jpg") center no-repeat rgba(0,0,0,.7);
     width: 100%;
     height:445px;
     justify-content:center;
@@ -233,7 +233,7 @@ h3 {
     height: 45px;
     width: 45px;
     padding: 0px;
-    background-image: url("/sources/svg/search.svg");
+    background-image: url("sources/svg/search.svg");
     background-repeat: no-repeat;
     background-size:15px;
     background-position:center center;
@@ -296,7 +296,7 @@ footer {
     width: 345px;
     height: 435px;
     flex-direction: column-reverse;
-    background: url("/sources/img/shop-item-desk1.jpg") top no-repeat;
+    background: url("sources/img/shop-item-desk1.jpg") top no-repeat;
 }
 .product2 {
     margin-left: 70px;
@@ -304,7 +304,7 @@ footer {
     height: 435px;
     display: flex;
     flex-direction: column-reverse;
-    background: url("/sources/img/shop-item-desk2.jpg") top no-repeat;
+    background: url("sources/img/shop-item-desk2.jpg") top no-repeat;
 }
 .product3 {
     margin-left: 70px;
@@ -313,7 +313,7 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     top: 0px;
-    background: url("/sources/img/shop-item-desk3.jpg") top no-repeat;
+    background: url("sources/img/shop-item-desk3.jpg") top no-repeat;
 }
 .product_content{
     box-sizing: border-box;
@@ -482,7 +482,7 @@ button {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background-image: url("/sources/svg/form-arrows.svg");
+    background-image: url("sources/svg/form-arrows.svg");
     background-position: right 5px center;
     background-repeat: no-repeat;
     background-size: 10px;
@@ -535,7 +535,7 @@ button {
     outline-offset: 5px;
 }
 .feedback_form__close {
-    background-image: url("/sources/svg/form-x.svg");
+    background-image: url("sources/svg/form-x.svg");
     background-position: right top ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -569,7 +569,7 @@ button {
     vertical-align:middle;
     width:15px;
     height:15px;
-    background-image:url("/sources/svg/form-empty-circle.svg");
+    background-image:url("sources/svg/form-empty-circle.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size:15px;
@@ -579,7 +579,7 @@ button {
     outline-offset: 2px;
   }
    .feedback_form_radio_btn:checked ~ .feedback_form_radio_btn_text::before {
-      background-image:url("/sources/svg/form-circle.svg");
+      background-image:url("sources/svg/form-circle.svg");
   }
   .feedback_form_radio_btn {
     position: absolute;
